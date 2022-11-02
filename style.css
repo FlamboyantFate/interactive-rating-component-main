@@ -1,0 +1,121 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family:"Overpass";
+}
+
+
+
+main {
+    background-color: hsl(216, 12%, 8%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:320px;
+    height:400px;
+    transform: translate(-50%, -50%);
+}
+.container-home {
+    padding:20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.container-thank-you-page {
+    padding:20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.star {
+    float:left;
+    background-color: hsla(213, 19%, 30%,0.5);
+    border-radius: 50%;
+    padding:10px;
+    height:20px;
+    width:20px;
+}
+
+h1.heading {
+    color:white;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 0;
+    font-weight: 400;
+    font-size:15px;
+    color:hsl(217, 12%, 63%);
+    text-align: center;
+}
+p.message {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size:15px;
+    color:orange;
+    text-align: center;  
+    padding:5px 15px;
+    margin-bottom: 0;
+    background-color: hsla(213, 19%, 30%,0.5);
+    border-radius: 15px;
+}
+ul {
+    display:flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    padding:0;
+}
+li {
+    cursor:pointer;
+    list-style-type: none;
+    float:left;
+    background-color:hsla(213, 19%, 30%,0.5);
+    height:20px;
+    width:20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 50%;
+}
+li:hover {
+    background-color: orange;
+}
+
+input {
+    height:40px;
+    font-size:15px;
+    text-align: center;
+    border-radius: 20px;
+    background-color:orange;
+    color:white;
+    cursor: pointer;
+    border:0;
+}
+
+input:hover {
+    background-color:white;
+    color:orange;
+}
+
+li.rate.active {
+    background-color:hsl(217, 12%, 63%);
+}
+
+/* .attribution { 
+    font-size: 11px;
+    text-align: center;
+    color:white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+} */
+
+
+img.thank-you {
+    max-width:150px;
+}
